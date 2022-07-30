@@ -1,6 +1,8 @@
 import React from 'react'
-import { Article, Brand, CTA, Feature, Navbar } from './components';
+import { Navbar } from './components';
 import { About, Footer, Header, Skills, Testimonial, Work} from './containers';
+import './App.scss';
+
 
 const App = () => {
   return (
