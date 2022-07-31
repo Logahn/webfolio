@@ -1,10 +1,22 @@
 import React from 'react';
 import './header.scss';
+import {motion } from 'framer-motion';
+import {images}from '../../constants';
+
 
 const Header = () => {
   return (
-    <div>
-        Header
+    <div className = "app__header app__flex">
+        <motion.div
+        whileInView={{x: [-100,0], opacity: [0,1]}}
+        transition = {{duration: 0.5}}
+        className = "app__header-badge">
+          <div className = "app__header-badge">
+            <div>
+              
+            </div>
+          </div>
+          </motion.div>
     </div>
   )
 }
