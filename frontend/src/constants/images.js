@@ -10,8 +10,10 @@ import graphql from '../assets/graphql.png';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
 import logo from '../assets/logo.png';
+import logo1 from '../assets/logo1.png';
 import mu5 from '../assets/mu5.png';
 import node from '../assets/node.png';
+import profile1 from '../assets/profile1.png';
 import python from '../assets/python.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
@@ -43,8 +45,10 @@ export default {
     html,
     javascript,
     logo,
+    logo1,
     mu5,
     node,
+    profile1,
     python,
     react,
     redux,
