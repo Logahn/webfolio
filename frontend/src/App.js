@@ -9,7 +9,7 @@ const App = () => {
     <div classname = "App">
       <div classname = "gradient__bg">
         <Navbar />
-        <Header />
+        {/* <Header /> */}
       </div>
       <About />
       <Footer />

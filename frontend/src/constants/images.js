@@ -13,6 +13,7 @@ import logo from '../assets/logo.png';
 import logo1 from '../assets/logo1.png';
 import mu5 from '../assets/mu5.png';
 import node from '../assets/node.png';
+import profile from '../assets/profile.png';
 import profile1 from '../assets/profile1.png';
 import python from '../assets/python.png';
 import react from '../assets/react.png';
@@ -20,6 +21,8 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
+import circle from '../assets/circle.png';
+import circles from '../assets/circle.svg';
 
 
 import adidas from '../assets/adidas.png';
@@ -38,6 +41,8 @@ export default {
     api,
     cpp,
     css,
+    circle,
+    circles,
     figma,
     flutter,
     git,
@@ -48,6 +53,7 @@ export default {
     logo1,
     mu5,
     node,
+    profile,
     profile1,
     python,
     react,
