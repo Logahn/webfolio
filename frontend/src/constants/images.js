@@ -33,6 +33,11 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
+import about01 from '../assets/about01.png';
+import about02 from '../assets/about02.png';
+import about03 from '../assets/about03.png';
+import about04 from '../assets/about04.png';
+
 
 
 export default {
@@ -61,10 +66,10 @@ export default {
     sass,
     typescript,
     vue,
-    // about01,
-    // about02,
-    // about03,
-    // about04,
+    about01,
+    about02,
+    about03,
+    about04,
     // profile,
     // circle,
     // logo,
