@@ -7,8 +7,12 @@ import {images}from '../../constants';
 const abouts =[
   {title : "AI Development", description: "I am a certified web developer", imgUrl: images.about01},
   {title : "Mobile Development", description: "I am a certified web developer", imgUrl: images.about02},
-  {title : "Backend", description: "I am a certified web developer", imgUrl: images.about03},
+  {title : "Backend Development", description: "I am a certified web developer", imgUrl: images.about03},
   {title : "UI/UX", description: "I am a certified web developer", imgUrl: images.about04},
+  // {title : "Amazon Cloud Developer", description: "I am a certified web developer", imgUrl: images.amazon},
+  // {title : "Bolt Developer", description: "I am a certified web developer", imgUrl: images.bolt},
+
+
 ]; 
 const About = () => {
   return (
@@ -16,10 +20,10 @@ const About = () => {
     <h2
       className = 'head-text'>
         I know that
-        <span>Good design</span>
+        <span> Good Dev </span>
         <br/>
         means
-        <span>Good business</span>
+        <span> Good Money</span>
     </h2>
     <div className = "app__profiles">
       {abouts.map((about, index) =>(
