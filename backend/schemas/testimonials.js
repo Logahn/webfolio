@@ -28,6 +28,3 @@ export default {
         }
     ]
 }
-
-
-// TODO: Add schemas from Github depending on necessities
