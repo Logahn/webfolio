@@ -2,17 +2,9 @@ import React, {useState, useEffect} from 'react';
 import { motion } from 'framer-motion';
 
 import './about.scss';
-import {images}from '../../constants';
 import {urlFor, client} from '../../client';
+import { AppWrap } from '../../wrapper';
 
-// const abouts =[
-//   {title : "AI Development", description: "I am a certified web developer", imgUrl: images.about01},
-//   {title : "Mobile Development", description: "I am a certified web developer", imgUrl: images.about02},
-//   {title : "Backend Development", description: "I am a certified web developer", imgUrl: images.about03},
-//   {title : "UI/UX", description: "I am a certified web developer", imgUrl: images.about04},
-//   // {title : "Amazon Cloud Developer", description: "I am a certified web developer", imgUrl: images.amazon},
-//   // {title : "Bolt Developer", description: "I am a certified web developer", imgUrl: images.bolt},
-// ]; 
 const About = () => {
   const [abouts, setabouts] = useState([]);
   useEffect(() => {
@@ -53,6 +45,4 @@ const About = () => {
   )
 }
 
-export default About
-
-//TODO: Merge into develop branch
+export default AppWrap(About, 'about');
