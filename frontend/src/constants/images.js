@@ -23,6 +23,7 @@ import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 import circle from '../assets/circle.png';
 import circles from '../assets/circle.svg';
+import jpMorgan from '../assets/jpMorgan.png';
 
 
 import adidas from '../assets/adidas.png';
@@ -80,4 +81,5 @@ export default {
     nb,
     skype,
     spotify,
+    jpMorgan
   };
