@@ -17,6 +17,9 @@ const SocialMedia = () => {
         <div>
             <BsFacebook />
         </div>
+        <div>
+            <FaFacebook />
+        </div>
     </div>
   )
 }

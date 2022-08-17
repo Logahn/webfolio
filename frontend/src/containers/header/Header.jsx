@@ -3,7 +3,7 @@ import React from 'react';
 import { AppWrap } from '../../wrapper';
 import {motion } from 'framer-motion';
 import {images}from '../../constants';
-import { NavigationDots, SocialMedia } from '../../components';
+import { SocialMedia } from '../../components';
 
 import './header.scss';
 
@@ -72,7 +72,7 @@ const Header = () => {
     </div>
   ))}
 </motion.div>
-{/* <SocialMedia /> */}
+<SocialMedia />
 </div>
 
 );}
