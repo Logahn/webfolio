@@ -72,7 +72,6 @@ const Header = () => {
     </div>
   ))}
 </motion.div>
-<SocialMedia />
 </div>
 
 );}
