@@ -1,4 +1,5 @@
 import email from '../assets/email.png';
+import gmail from '../assets/gmail.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
@@ -42,6 +43,7 @@ import about04 from '../assets/about04.png';
 
 
 export default {
+    gmail,
     email,
     mobile,
     api,
