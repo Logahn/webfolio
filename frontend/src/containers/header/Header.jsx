@@ -3,6 +3,7 @@ import React from 'react';
 import { AppWrap } from '../../wrapper';
 import {motion } from 'framer-motion';
 import {images}from '../../constants';
+import { NavigationDots, SocialMedia } from '../../components';
 
 import './header.scss';
 
@@ -26,7 +27,6 @@ const Header = () => {
         transition = {{duration: 0.5}}
         className = "app__header-info"
         >
-
           <div className = "app__header-badge">
             <div className = "badge-cmp app__flex">
             <span>👋</span>
@@ -59,6 +59,7 @@ const Header = () => {
         className="overlay_circle"
         />
           </motion.div>
+          
 
 <motion.div
   variants={scaleVariants}
@@ -71,7 +72,9 @@ const Header = () => {
     </div>
   ))}
 </motion.div>
+{/* <SocialMedia /> */}
 </div>
+
 );}
 
   export default AppWrap(Header, 'home');

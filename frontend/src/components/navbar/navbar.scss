@@ -18,13 +18,20 @@
 
 .app__navbar-logo {
   display: flex;
-  justify-content: flex-start;
+  justify-content: end;
   align-items: center;
+  cursor: pointer;
+
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+
 
   img {
-    width: 50px;
-    height: 35px;
-
+    width: 150px;
+    height: 45px;
+   
     @media screen and (min-width: 2000px) {
       width: 180px;
       height: 40px;
@@ -56,12 +63,14 @@
     }
 
     a {
-      color: var(--gray-color);
+      color: var(--black-color);
       text-decoration: none;
       flex-direction: column;
 
       text-transform: uppercase;
       font-weight: 500;
+      font-family: var(--font-secondary);
+
 
       transition: all 0.3s ease-in-out;
 

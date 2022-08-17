@@ -34,7 +34,7 @@ const Footer = () => {
       })
       .catch((err) => console.log(err));
   };
-
+ 
 return (
   <>
     <h2 className="head-text">Take a coffee & chat with me</h2>
