@@ -28,6 +28,8 @@ import jpMorgan from '../assets/jpMorgan.png';
 import ac_logo from '../assets/ac_logo.png';
 import adele_logo from '../assets/adele_logo.svg';
 import icon from '../assets/icon.jpeg';
+import robo_hand from '../assets/robo_hand.png'
+import developer from '../assets/developer.jpg'
 
 
 import adidas from '../assets/adidas.png';
@@ -46,6 +48,8 @@ import about04 from '../assets/about04.png';
 
 
 export default {
+  developer,
+    robo_hand,
     icon,
     adele_logo,
     ac_logo,
