@@ -27,6 +27,7 @@ import circles from '../assets/circle.svg';
 import jpMorgan from '../assets/jpMorgan.png';
 import ac_logo from '../assets/ac_logo.png';
 import adele_logo from '../assets/adele_logo.svg';
+import icon from '../assets/icon.jpeg';
 
 
 import adidas from '../assets/adidas.png';
@@ -45,6 +46,7 @@ import about04 from '../assets/about04.png';
 
 
 export default {
+    icon,
     adele_logo,
     ac_logo,
     gmail,
