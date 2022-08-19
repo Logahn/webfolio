@@ -1,14 +1,18 @@
 .app__navbar {
   width: 100%;
   height: 10%;
+  // position: relative;
+  // border-radius: 10px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.25);
-  // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  // background: rgba(255, 255, 255, 0.25);
+  // background-color: rgba(33, 125, 187, .8);
+
+  box-shadow: 0 8px 32px 0 var(--main-color);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -31,12 +35,16 @@
   img {
     width: 150px;
     height: 45px;
+    // background: var(--main-color);
+
    
     @media screen and (min-width: 2000px) {
       width: 180px;
       height: 40px;
     }
   }
+
+  
 }
 
 .app__navbar-links {
@@ -50,6 +58,8 @@
   li {
     margin: 0 1rem;
     cursor: pointer;
+    width: 80px;
+
 
     flex-direction: column;
 
@@ -58,28 +68,27 @@
       height: 5px;
       background: transparent;
       border-radius: 50%;
-
       margin-bottom: 5px;
     }
 
     a {
-      color: var(--black-color);
+      color: var(--new_grey1-color);
       text-decoration: none;
       flex-direction: column;
-
+      font-size: 12pt;
       text-transform: uppercase;
       font-weight: 500;
 
       transition: all 0.3s ease-in-out;
 
       &:hover {
-        color: var(--secondary-color);
+        color: var(--white-color);
       }
     }
 
     &:hover {
       div {
-        background: var(--secondary-color);
+        background: var(--white-color);
       }
     }
   }
@@ -88,6 +97,7 @@
     display: none;
   }
 }
+//TODO: Continue from here
 
 .app__navbar-menu {
   width: 35px;
@@ -98,13 +108,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary-color);
+  background-color: var(--white-color);
+  cursor: pointer;
 
 
   svg {
     width: 50%;
     height: 50%;
-    color: var(--white-color);
+    color: var(--main-color);
   }
 
   div {
@@ -135,8 +146,9 @@
     svg {
       width: 35px;
       height: 35px;
-      color: var(--secondary-color);
+      color: var(--main-color);
       margin: 0.5rem 1rem;
+      cursor: pointer;
     }
 
     ul {
@@ -155,7 +167,7 @@
         margin: 1rem;
 
         a {
-          color: var(--gray-color);
+          color: var(--main-color);
           text-decoration: none;
           font-size: 1rem;
           text-transform: uppercase;
@@ -164,7 +176,7 @@
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            color: var(--secondary-color);
+            color: var(--gray-color);
           }
         }
       }
