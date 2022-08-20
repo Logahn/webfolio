@@ -22,7 +22,7 @@ const scaleVariants = {
 const Header = () => {
   return (
     <div className = "app__header app__flex">
-            {/* <SocialMedia /> */}
+          <div className="overlay"></div>
 
         <motion.div
         whileInView={{x: [-100,0], opacity: [0,1]}}
@@ -31,17 +31,14 @@ const Header = () => {
         >
           <div className = "app__header-badge">
             <div className = "badge-cmp app__flex">
-            {/* <span>👋</span> */}
             
             <div style = {{marginLeft: 20}}>
-              {/* <p className = "p-text">Hello, I am</p> */}
-              <h3 className= "head-text">Adele Chinda</h3>
+              <p className= "p-text">Adele Chinda</p>
             </div>
             </div>
 
             <div className = "tag-cmp app_flex">
                 <p className = "p-text">AI Developer & Software Engineer</p>
-                {/* <p className = "p-text">Android Developer</p> */}
             </div>  
           </div>
           </motion.div>
@@ -52,7 +49,6 @@ const Header = () => {
             className = "app__header-img"
             >
 
-              {/* <img src = {images.profile} alt = 'profile' /> */}
               <motion.img
         whileInView={{ scale: [0, 1] }}
         transition={{ duration: 1, ease: 'easeInOut' }}
@@ -79,3 +75,4 @@ const Header = () => {
 );}
 
   export default AppWrap(Header, 'home');
+

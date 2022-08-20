@@ -1,22 +1,18 @@
 .app__navbar {
   width: 100%;
-  height: 10%;
-  // position: relative;
-  // border-radius: 10px;
+  height: 60px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   padding: 1rem 2rem;
-  // background: rgba(255, 255, 255, 0.25);
-  // background-color: rgba(33, 125, 187, .8);
+  background-color: var(--main-color);
 
-  box-shadow: 0 8px 32px 0 var(--main-color);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
-  position: fixed;
+  position: relative;
   z-index: 2;
 }
 
@@ -35,9 +31,7 @@
   img {
     width: 150px;
     height: 45px;
-    // background: var(--main-color);
 
-   
     @media screen and (min-width: 2000px) {
       width: 180px;
       height: 40px;
@@ -72,7 +66,7 @@
     }
 
     a {
-      color: var(--new_grey1-color);
+      color: var(--white-color);
       text-decoration: none;
       flex-direction: column;
       font-size: 12pt;
@@ -82,13 +76,13 @@
       transition: all 0.3s ease-in-out;
 
       &:hover {
-        color: var(--white-color);
+        color: var(--secondary-color);
       }
     }
 
     &:hover {
       div {
-        background: var(--white-color);
+        background: var(--secondary-color);
       }
     }
   }
@@ -109,6 +103,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--white-color);
+  border-color: var(--main-color);
   cursor: pointer;
 
 

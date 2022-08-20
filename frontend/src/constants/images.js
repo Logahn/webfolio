@@ -10,8 +10,6 @@ import git from '../assets/git.png';
 import graphql from '../assets/graphql.png';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
-import logo from '../assets/logo.png';
-import logo1 from '../assets/logo1.png';
 import mu5 from '../assets/mu5.png';
 import node from '../assets/node.png';
 import profile from '../assets/profile.png';
@@ -30,6 +28,7 @@ import adele_logo from '../assets/adele_logo.svg';
 import icon from '../assets/icon.jpeg';
 import robo_hand from '../assets/robo_hand.png'
 import developer from '../assets/developer.jpg'
+import trialBg from '../assets/trialBg.jpg'
 
 
 import adidas from '../assets/adidas.png';
@@ -48,7 +47,8 @@ import about04 from '../assets/about04.png';
 
 
 export default {
-  developer,
+    trialBg,
+    developer,
     robo_hand,
     icon,
     adele_logo,
@@ -67,8 +67,6 @@ export default {
     graphql,
     html,
     javascript,
-    logo,
-    logo1,
     mu5,
     node,
     profile,

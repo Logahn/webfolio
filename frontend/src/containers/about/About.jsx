@@ -19,11 +19,7 @@ const About = () => {
     <>
     <h2
       className = 'head-text'>
-        I know that
-        <span> Good Dev </span>
-        <br/>
-        means
-        <span> Good Money</span>
+        About
     </h2>
     <div className = "app__profiles">
       {abouts.map((about, index) =>(
@@ -48,5 +44,5 @@ const About = () => {
 export default AppWrap(
   MotionWrap(About, 'app__about'),
    'about',
-   "app__whitebg"
+   "app__plix"
   );  

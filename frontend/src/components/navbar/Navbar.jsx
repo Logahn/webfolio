@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
@@ -17,7 +18,7 @@ const Navbar = () => {
 
       </div>
       <ul className="app__navbar-links">
-        {['home', 'about', 'work', 'skills', 'contact'].map((item) => ( //TODO: ADD RESUME AND RESEARCH WORK HERE
+        {['home', 'about','experience', 'projects', 'skills', 'contact'].map((item) => ( //TODO: ADD RESUME AND RESEARCH WORK HERE
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
@@ -37,9 +38,12 @@ const Navbar = () => {
             <ul>
               {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
                 <li key={item}>
-                  <a href={`#${item}`} onClick={() => setToggle(false)}>
+                  {/* <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
-                  </a>
+                  </a> */}
+                  <Link activeClass="active" to={item} spy={true} smooth={true} offset={1000} duration={500} onSetActive={this.handleSetActive} onClick={() => setToggle(false)}>
+                    {item} </Link>
+
                 </li>
               ))}
             </ul>

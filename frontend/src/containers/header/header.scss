@@ -1,10 +1,18 @@
 #home {
     position: relative;
-    background: url("../../assets/bgIMG.png");
-    // background: url("../../assets/developer.jpg");
+    background-image: url("../../assets/developer.jpg");
     background-size: cover;
-    background-position: center;
     background-repeat: repeat;
+
+    .overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--main-color);
+
+    }
 
     .app__wrapper {
       padding: 0;
@@ -13,8 +21,16 @@
         display: none;
       }
     }
+
+    .navDots {
+      display: none;
+    }
+
+    .socialMedia {
+      display: none;
+    }
   }
-  
+
   .app__header {
     flex: 1;
     width: 100%;
@@ -24,7 +40,7 @@
     padding: 6rem 2rem 0rem;
   
     @media screen and (min-width: 2000px) {
-      padding-top: 8rem;
+      padding-top: 10rem;
     }
   
     @media screen and (max-width: 1200px) {
@@ -41,14 +57,14 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     height: 100%;
   
     margin: 0 2rem;
   
     @media screen and (max-width: 1200px) {
       width: 100%;
-      margin-right: 0rem;
+      margin-right: 3rem;
     }
   }
   
@@ -56,12 +72,39 @@
     width: 100%;
     height: 70%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+
     // font-family: var(--font-secondary);
   
-    .badge-cmp,
+    .badge-cmp{
+      position: absolute;
+      flex-direction: column;
+      margin-bottom: 0rem;
+      margin-top: 15rem;
+      margin-right: -45rem;
+      //TODO: Edit ADELE CHINDA here
+  
+      p {
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30pt;
+        font-weight: bold;
+        color: white;
+        font-family: var(--font-secondary);
+
+      }
+
+      @media screen and (max-width: 1200px) {
+        width: 100%;
+        margin-right: 0rem;
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+      }
+    }
+
     .tag-cmp {
       // font-family: var(--font-secondary);
       padding: 0rem 2rem;
@@ -70,32 +113,42 @@
       width: auto;
       margin-bottom: 1rem;
       margin-right: -17rem;
+      
 
       @media screen and (max-width: 1200px) {
         width: 100%;
         margin-right: 0rem;
-        margin-top: 20rem;
+        margin-top: 15rem;
+        margin-bottom: 2rem;
+
       }
       }
   
     .tag-cmp {
+      position: absolute;
       flex-direction: column;
-      margin-bottom: 0rem;
-      margin-right: -22rem;
+      margin-bottom: -22rem;
+      margin-top: 1rem;
+      margin-right: -45rem;
+      //TODO: Edit AI DEV here
+
   
       p {
         width: 100%;
         text-transform: uppercase;
         text-align: center;
-        font-size: 16pt;
-        // font-family: var(--font-secondary);
+        font-size: 18pt;
+        font-weight: bold;
+        color: white;
+        font-family: var(--font-base);
 
       }
 
       @media screen and (max-width: 1200px) {
         width: 100%;
         margin-right: 0rem;
-        margin-top: 0rem;
+        margin-top: 15rem;
+        margin-bottom: 5rem;
       }
   
     }
@@ -216,14 +269,16 @@
       height: 250px;
       border-radius: 100%;
       margin: 18rem 0;
-      margin-left: -3rem;
+      margin-left: -1rem;
     }
   
     @media screen and (max-width: 1200px) {
       margin: 0rem 0;
-      width: fit-content;
-      margin-right: 8rem;
-      margin-top: 3rem;
+      width: auto;
+      height: 100%;
+      margin-right: 9rem;
+      margin-top: 10rem 2;
+      margin-bottom: 10rem;
       position: absolute;
     }
   }
