@@ -36,6 +36,19 @@ const Experience = () => {
                 <h6 className="p-text">{xp[currentIndex].position}</h6>
                 <h5 className="p3-text">{xp[currentIndex].date}</h5>
               </div>
+              <div className="app__projects-tag app__flex">
+
+              <div className="app__projects-tag0 app__flex">
+                <h7 className="p1-text">{xp[currentIndex].tags[0]}</h7>
+              </div>
+              <div className="app__projects-tag1 app__flex">
+                <h7 className="p1-text">{xp[currentIndex].tags[1]}</h7>
+              </div>
+              <div className="app__projects-tag2 app__flex">
+                <h7 className="p1-text">{xp[currentIndex].tags[2]}</h7>
+              </div>
+              </div>
+
             </div>
           </div>
 

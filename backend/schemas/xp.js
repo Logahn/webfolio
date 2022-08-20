@@ -30,6 +30,19 @@ export default {
             name:'date',
             title:'Date',
             type:'string'
-        }
+        },
+
+        {
+            name: 'tags',
+            title: 'Tags',
+           type:'array',
+           of: [
+             {
+               name:'tag',
+               title:'Tag',
+               type:'string'
+             }
+           ]
+          },
     ]
 }

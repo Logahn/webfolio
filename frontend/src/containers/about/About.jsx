@@ -17,10 +17,32 @@ const About = () => {
   
   return (
     <>
-    <h2
+    {/* <h2
       className = 'head-text'>
-        About
-    </h2>
+        About me
+    </h2> */}
+    <div className="app__about_card app__flex">
+      <h5>
+        Adele Chinda
+      </h5>
+      <h6>
+        CS Student, Software Developer, Mobile Developer, and AI/ML Researcher
+      </h6>
+    <h7
+      className = 'about-text'>
+        I'm a currently a CS student based in Belgorod.
+        <br/>
+        My interests include software development, 
+        artificial intelligence, machine learning, computer vision, 
+        and robotics programming.
+        <br/>
+        Besides developing intelligent algoithms,  
+        I love playing basketball, 
+        swimming and learning new natural languages.
+    </h7>
+
+    </div>
+
     <div className = "app__profiles">
       {abouts.map((about, index) =>(
         <motion.div
