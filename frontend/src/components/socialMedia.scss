@@ -1,0 +1,39 @@
+a.app__social{
+    transition: transform 250ms;
+}
+.app__social:hover {
+    transform: translateY(-2px);
+  }
+
+a.github:hover{
+    border-radius: 50%;
+    background-color: var(--black-color);
+    border-color: var(--black-color);
+}
+
+a.linkedin:hover{
+    border-radius: 50%;
+    background-color: #0072b1;
+    border-color: #0072b1;
+}
+
+a.twitter:hover{
+    border-radius: 50%;
+    background-color: #1D9BF0;
+    border-color: #1D9BF0;
+}
+
+a.instagram:hover{
+    border-radius: 50%;
+    background-color: #FD1D1D;
+    border-color: #FD1D1D;
+}
+
+a.facebook:hover{
+    border-radius: 50%;
+    background-color: #0165E1;
+    border-color: #0165E1;
+    
+}
+
+  

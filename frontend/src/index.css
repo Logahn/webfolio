@@ -2,10 +2,12 @@
 
 :root {
   --font-base: "DM Sans", sans-serif;
-  --font-secondary: "Kelly Slab";
+  --font-secondary: "Kelly Slab", sans-serif;
 
-  --primary-color: #edf2f8;
-  /* --secondary-color: #313bac; */
+
+  --main-color: rgba(33, 125, 187, .8);
+  --primary-color: #5282bc;
+  --lead-color: rgba(33, 125, 187, 0.8);
   --secondary-color: #ffa903;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
@@ -13,7 +15,19 @@
   --brown-color: #46364a;
   --white-color: #ffffff;
   --slumber-color: #23628b;
-  --plix-color: #015caf;
+  --plix-color: #00407A;
+  --new_gray-color: #6b7a99;
+  --new_gray1-color: #b2b9d1;
+  --black-color: #0a192f;
+  --mild_rose-color:#fef4f5;
+
+  --gradient1-color: rgba(72, 151, 215, 0.8);
+  --gradient2-color: rgba(104, 177, 244, 0.8);
+  --gradient3-color: rgba(134, 205, 255, 0.8);
+  --gradient4-color: rgba(164, 233, 255, 0.8);
+
+
+
 }
 
 * {

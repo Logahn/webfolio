@@ -37,25 +37,25 @@ const Footer = () => {
  
 return (
   <>
-    <h2 className="head-text">Take a coffee & chat with me</h2>
+    <h2 className="head-text">Get In Touch</h2>
 
     <div className="app__footer-cards">
       <div className="app__footer-card ">
         <img src={images.gmail} alt="email" />
-        <a href="mailto:chindahadele2@gmail.com" className="p-text">chindahadele2@gmail.com</a>
+        <a href="mailto:chindahadele2@gmail.com" className="p1-text">chindahadele2@gmail.com</a>
       </div>
       <div className="app__footer-card">
         <img src={images.mobile} alt="phone" />
-        <a href="tel:+79524257419" className="p-text">8 (952) 425-74-19</a>
+        <a href="tel:+79524257419" className="p1-text">8 (952) 425-74-19</a>
       </div>
     </div>
     {!isFormSubmitted ? (
       <div className="app__footer-form app__flex">
         <div className="app__flex">
-          <input className="p-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
+          <input className="p2-text" type="text" placeholder="Your Name" name="username" value={username} onChange={handleChangeInput} />
         </div>
         <div className="app__flex">
-          <input className="p-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
+          <input className="p2-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
         </div>
         <div>
           <textarea
@@ -82,5 +82,5 @@ return (
 export default AppWrap(
   MotionWrap(Footer, 'app__footer'),
   'contact',
-  'app__slumber',
+  'app__plix',
 );
