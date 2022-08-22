@@ -45,15 +45,25 @@ const About = () => {
 
     <div className = "app__profiles">
       {abouts.map((about, index) =>(
+        
         <motion.div
-          whileInView = {{opacity: 1}}
-          whileHover = {{scale: 1.1}}
+          whileInView = {{opacity:1}}
+          whileHover = {{scale: 0.9}}
           transition = {{duration: 0.5, type: 'tween'}}
           className = "app__profile-item"
           key = {about.title + index}
           >
+
+            <a href={about.link} target="_blank" rel="noreferrer">
+
+                  <motion.div
+                    whileInView={{ scale: [0, 1] }}
+                    className="app__flex"
+                  >
             <img src = {urlFor(about.imgUrl)} alt = {about.title}/>
-            <h2 className = "bold-text" style={{marginTop: 20}}>{about.title}</h2>
+                  </motion.div>
+                </a>
+            <h2 className = "bold-text" style={{marginTop:20}}>{about.title}</h2>
             <p className = "p-text" style={{marginTop: 10}}>{about.description}</p>
 
         </motion.div>

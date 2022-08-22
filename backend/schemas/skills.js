@@ -8,6 +8,11 @@ export default{
             title:'Name',
             type:'string'
         },
+         {
+            name: 'link',
+            title: 'Link',
+            type: 'string',
+        },
         {
             name:'bgColor',
             title:'BgColor',
