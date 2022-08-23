@@ -6,6 +6,13 @@
       display: none;
     }
   }
+  h2 {
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-top: 2rem;
+    font-family: var(--font-kelly);
+    font-size: 25pt;
+  }
 }
 
 .app__footer {
@@ -99,7 +106,8 @@
         border: none;
         border-radius: 7px;
         background-color: var(--lightGray-color);
-        font-family: var(--font-base);
+        font-family: var(--font-kelly);
+        font-size: 12pt;
         color: var(--black-color);
         outline: none;
       }
@@ -123,13 +131,14 @@
       color: var(--white-color);
       outline: none;
       margin: 2rem 0 0 0;
-      font-family: var(--font-base);
+      font-family: var(--font-kelly);
+      font-size: 10pt;
   
       transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
       cursor: pointer;
   
       &:hover {
-        box-shadow: 0 0 25px var(--secondary-color);
+        box-shadow: 0 0 15px var(--white-color);
       }
     }
   

@@ -28,8 +28,8 @@ export default createSchema({
     // testimonials, 
     brands,
     skills, 
-    workExperience, 
-    experiences, 
+    // workExperience, 
+    // experiences, 
     contact
   ]),
 

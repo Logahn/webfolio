@@ -30,9 +30,7 @@ const About = () => {
       </h6>
     <h7
       className = 'about-text'>
-        I'm a currently a CS student based in Belgorod.
-        <br/>
-        My interests include software development, 
+        I'm currently a CS student based in Belgorod. My interests include software development, 
         artificial intelligence, machine learning, computer vision, 
         and robotics programming.
         <br/>
@@ -48,12 +46,12 @@ const About = () => {
         
         <motion.div
           whileInView = {{opacity:1}}
-          whileHover = {{scale: 0.9}}
-          transition = {{duration: 0.5, type: 'tween'}}
+          whileHover = {{scale: 1.1}}
+          transition = {{duration: 0.05, type: 'tween'}}
           className = "app__profile-item"
           key = {about.title + index}
           >
-
+ 
             <a href={about.link} target="_blank" rel="noreferrer">
 
                   <motion.div
@@ -62,10 +60,9 @@ const About = () => {
                   >
             <img src = {urlFor(about.imgUrl)} alt = {about.title}/>
                   </motion.div>
-                </a>
+                  </a>
             <h2 className = "bold-text" style={{marginTop:20}}>{about.title}</h2>
             <p className = "p-text" style={{marginTop: 10}}>{about.description}</p>
-
         </motion.div>
       ))}
     </div>

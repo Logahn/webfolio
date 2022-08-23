@@ -2,8 +2,9 @@
 
 :root {
   --font-base: "DM Sans", sans-serif;
-  --font-secondary: "Kelly Slab", sans-serif;
-
+  --font-kelly:'Kelly Slab', cursive;
+  --font-alumni: 'Alumni Sans Pinstripe', sans-serif;
+  --font-saira: 'Saira Condensed', sans-serif;
 
   --main-color: rgba(33, 125, 187, .8);
   --primary-color: #5282bc;
@@ -20,7 +21,7 @@
   --new_gray1-color: #b2b9d1;
   --black-color: #0a192f;
   --mild_rose-color:#fef4f5;
-
+ 
   --gradient1-color: rgba(72, 151, 215, 0.8);
   --gradient2-color: rgba(104, 177, 244, 0.8);
   --gradient3-color: rgba(134, 205, 255, 0.8);

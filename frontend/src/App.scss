@@ -88,17 +88,18 @@
   .copyright {
     width: 100%;
     padding: 1rem;
-  
+    margin-top: 4rem;
     display: contents;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
   
     p {
-      text-transform: uppercase;
-      color: var(--mild_rose-color);
+      // text-transform: uppercase;
+      color: var(--white-color);
       line-height: 2.5;
-
+      font-family: var(--font-kelly);
+      font-size: 16px;
     }
   }
   
@@ -244,9 +245,8 @@
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background-color: #cbcbcb;
-      margin: 0.5rem;
-  
+      background-color: white;
+      margin: 0.5rem;  
       transition: background-color 0.2s ease-in-out;
   
       &:hover {

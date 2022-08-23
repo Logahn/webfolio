@@ -6,6 +6,14 @@
       display: none;
     }
   }
+  h2 {
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    font-family: var(--font-kelly);
+    font-size: 25pt;
+  }
 }
 .app__skills {
     flex: 1;
@@ -79,6 +87,7 @@
     p {
       font-weight: 500;
       margin-top: 0.5rem;
+      font-family: var(--font-kelly);
     }
   
     @media screen and (min-width: 2000px) {

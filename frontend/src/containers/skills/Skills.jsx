@@ -41,14 +41,13 @@ const Skills = () => {
                 style={{ backgroundColor: skill.bgColor }}
               >
                 <a href={skill.link} target="_blank" rel="noreferrer">
-
-<motion.div
-  whileInView={{ scale: [0, 1] }}
-  className="app__flex"
->
-<img src={urlFor(skill.icon)} alt={skill.name} />
-</motion.div>
-</a>
+              <motion.div
+                whileInView={{ scale: [0, 1] }}
+                className="app__flex"
+              >
+                <img src={urlFor(skill.icon)} alt={skill.name} />
+                </motion.div>
+              </a>
               </div>
               <p className="p-text">{skill.name}</p>
             </motion.div>

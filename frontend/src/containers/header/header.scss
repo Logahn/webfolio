@@ -88,12 +88,12 @@
   
       p {
         width: 100%;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         text-align: center;
-        font-size: 30pt;
-        font-weight: bold;
+        font-size: 45pt;
+        font-weight: normal;
         color: white;
-        font-family: var(--font-secondary);
+        font-family: var(--font-kelly);
 
       }
 
@@ -137,10 +137,10 @@
         width: 100%;
         text-transform: uppercase;
         text-align: center;
-        font-size: 18pt;
+        font-size: 30pt;
         font-weight: bold;
         color: white;
-        font-family: var(--font-base);
+        font-family: var(--font-alumni);
 
       }
 
