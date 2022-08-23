@@ -38,7 +38,7 @@
         width: 120px;
         height: 120px;
         border-radius: 50%;
-        object-fit: contain;
+        object-fit: scale-down;
         background-color: white;
       }
     
@@ -73,7 +73,7 @@
     
       p {
         font-weight: 600;
-        font-size: 18pt;
+        font-size: 16pt;
         line-height: 2rem;
         color: var(--white-color);
         font-family: var(--font-saira);
@@ -113,7 +113,7 @@
       }
       .app__projects-tag {
         position: absolute;
-        margin-top: 12rem;
+        margin-top: 15rem;
         display: flex;
         flex-direction: row;
       }
