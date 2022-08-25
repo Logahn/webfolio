@@ -28,7 +28,17 @@ const Experience = () => {
       {xp.length && (
         <>
           <div className="app__experience-item app__flex">
+             <a href={xp[currentIndex].companyUrl} target="_blank" rel="noreferrer">
+
+                  <motion.div
+                    // whileInView={{ scale: [0.9,1] }}
+                    whileHover={{ scale: [0.9,1] }}
+                    transition={{ duration: 0.75 }}
+                    className="app__flex"
+                  >
             <img src={urlFor(xp[currentIndex].imgurl)} alt={xp[currentIndex].name} />
+                  </motion.div>
+                  </a>
             <div className="app__experience-content">
               <p className="p-text">{xp[currentIndex].description}</p>
               <div>

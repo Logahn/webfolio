@@ -69,7 +69,7 @@ const Projects = () => {
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__projects-hover app__flex"
               >
-                <a href={projects.projectLink} target="_blank" rel="noreferrer">
+                {/* <a href={projects.projectLink} target="_blank" rel="noreferrer">
 
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
@@ -79,7 +79,7 @@ const Projects = () => {
                   >
                     <AiFillEye />
                   </motion.div>
-                </a>
+                </a> */}
                 <a href={projects.codeLink} target="_blank" rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
