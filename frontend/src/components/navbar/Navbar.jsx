@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <a href="https://logahn.github.io">
+        <a href="https://logahn.github.io/portfolio-website/">
           {" "}
           <img src={images.adele_logo} alt="logo" />
         </a>
@@ -38,22 +38,22 @@ const Navbar = () => {
 
       <ul className="app__navbar-links">
         <li>
-          <a href="/">Home</a>
+          <a href="/portfolio-website/">Home</a>
         </li>
         <li>
-          <a href="/portfolio">Portfolio</a>
+          <a href="/portfolio-website/portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="/publications">Publications</a>
+          <a href="/portfolio-website/publications">Publications</a>
         </li>
         <li>
-          <a href="/certifications">Certifications</a>
+          <a href="/portfolio-website/certifications">Certifications</a>
         </li>
         <li>
-          <a href="/resume">Resume</a>
+          <a href="/portfolio-website/resume">Resume</a>
         </li>
         <li>
-          <a href="/blog">Blog</a>
+          <a href="/portfolio-website/blog">Blog</a>
         </li>
       </ul>
 
@@ -98,22 +98,22 @@ const Navbar = () => {
             </ul> */}
             <ul className="app__navbar-links">
               <li>
-                <a href="/">Home</a>
+                <a href="/portfolio-website">Home</a>
               </li>
               <li>
-                <a href="/portfolio">Portfolio</a>
+                <a href="/portfolio-website/portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="/publications">Publications</a>
+                <a href="/portfolio-website/publications">Publications</a>
               </li>
               <li>
-                <a href="/certifications">Certifications</a>
+                <a href="/portfolio-website/certifications">Certifications</a>
               </li>
               <li>
-                <a href="/resume">Resume</a>
+                <a href="/portfolio-website/resume">Resume</a>
               </li>
               <li>
-                <a href="/blog">Blog</a>
+                <a href="/portfolio-website/blog">Blog</a>
               </li>
             </ul>
           </div>

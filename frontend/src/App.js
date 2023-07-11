@@ -27,21 +27,39 @@ function App() {
           <Navbar />
         </div>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/publications" element={<Publications />} />
-          <Route path="/certifications" element={<Certifications />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/transfer-learning" element={<TransferLearning />} />
-          <Route path="/k-nearest-neighbors" element={<KNearestNeighbors />} />
+          <Route path="/portfolio-website" element={<HomePage />} />
+          <Route path="/portfolio-website/portfolio" element={<Portfolio />} />
           <Route
-            path="/support-vector-machines"
+            path="/portfolio-website/publications"
+            element={<Publications />}
+          />
+          <Route
+            path="/portfolio-website/certifications"
+            element={<Certifications />}
+          />
+          <Route path="/portfolio-website/resume" element={<Resume />} />
+          <Route path="/portfolio-website/blog" element={<Blog />} />
+          <Route
+            path="/portfolio-website/transfer-learning"
+            element={<TransferLearning />}
+          />
+          <Route
+            path="/portfolio-website/k-nearest-neighbors"
+            element={<KNearestNeighbors />}
+          />
+          <Route
+            path="/portfolio-website/support-vector-machines"
             element={<SupportVectorMachines />}
           />
-          <Route path="/kernel-trick" element={<KernelTrick />} />
-          <Route path="/cnn-vs-rnn" element={<CNNvsRNN />} />
-          <Route path="/learning-journey" element={<StudyJourney />} />
+          <Route
+            path="/portfolio-website/kernel-trick"
+            element={<KernelTrick />}
+          />
+          <Route path="/portfolio-website/cnn-vs-rnn" element={<CNNvsRNN />} />
+          <Route
+            path="/portfolio-website/learning-journey"
+            element={<StudyJourney />}
+          />
         </Routes>
       </div>
     </>
