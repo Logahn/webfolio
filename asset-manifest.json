@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.207e15a6.css",
-    "main.js": "/portfolio-website/static/js/main.fb885337.js",
+    "main.js": "/portfolio-website/static/js/main.d2c834a4.js",
     "static/media/bookShelf.jpg": "/portfolio-website/static/media/bookShelf.3ea55a00bf584e0be08c.jpg",
     "static/media/testimonial5.jpg": "/portfolio-website/static/media/testimonial5.2688819aafdd38fd9491.jpg",
     "static/media/book2.png": "/portfolio-website/static/media/book2.1dfbd6c9cecde1c509bc.png",
@@ -47,10 +47,10 @@
     "static/media/adele_logo.svg": "/portfolio-website/static/media/adele_logo.8e1d7c500f7316edcbcc8c6db9db573b.svg",
     "index.html": "/portfolio-website/index.html",
     "main.207e15a6.css.map": "/portfolio-website/static/css/main.207e15a6.css.map",
-    "main.fb885337.js.map": "/portfolio-website/static/js/main.fb885337.js.map"
+    "main.d2c834a4.js.map": "/portfolio-website/static/js/main.d2c834a4.js.map"
   },
   "entrypoints": [
     "static/css/main.207e15a6.css",
-    "static/js/main.fb885337.js"
+    "static/js/main.d2c834a4.js"
   ]
 }
