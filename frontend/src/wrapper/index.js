@@ -1,7 +1,5 @@
-import AppWrap from './AppWrap';
-import MotionWrap from './MotionWrap';
+import React from "react";
 
-export {
-  AppWrap,
-  MotionWrap,
-};
+import AppWrap from "./AppWrap";
+import MotionWrap from "./MotionWrap";
+export { AppWrap, MotionWrap };

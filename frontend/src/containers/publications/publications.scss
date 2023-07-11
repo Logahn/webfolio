@@ -1,0 +1,281 @@
+#publications {
+    .app__wrapper {
+        padding: 0;
+
+        .copyright {
+            display: none;
+        }
+    }
+
+    h2 {
+        font-weight: 400;
+        color: var(--secondary-color);
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+        font-family: var(--font-kelly);
+        font-size: 25pt;
+    }
+        h3 {
+            font-weight: 400;
+            color: var(--white-color);
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-family: var(--font-kelly);
+            font-size: 20pt;
+        }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #1f1e1e17;
+        background-image: url("../../assets/radio_noise.png");
+        z-index: 0;
+        overflow: hidden;
+    }
+}
+
+.app__publications {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    z-index: 1;
+}
+
+
+.app__publications-publications {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+
+    .app__publications-item {
+        width: 80%;
+        flex-direction: row;
+        margin: 1rem;
+        padding: 1rem;
+
+
+
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid #ccc;
+
+
+        @media screen and (min-width: 2000px) {
+            width: 470px;
+            padding: 1.25rem;
+            border-radius: 0.75rem;
+        }
+
+        @media screen and (max-width: 300px) {
+            width: 100%;
+            margin: 1rem;
+        }
+    }
+    
+          .starters {
+              display: flex;
+              flex-direction: row;
+    
+              img {
+                  width: 60px;
+                  height: 60px;
+                  margin-top: 1rem;
+                  margin-right: 1rem;
+              }
+    
+          }
+}
+
+.app__publications-img {
+    border-radius: 50%;
+    position: relative;
+
+    &:hover {
+        box-shadow: 0 0 10px #fef4f5;
+        transition: all 0.3s ease;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: scale-down;
+        // background-color: white;
+    }
+
+
+    @media screen and (min-width: 2000px) {
+        min-height: 450px;
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        width: 85%;
+    }
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+
+
+}
+
+.overlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    display: none;
+}
+
+.app__publications-content {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: left;
+    flex: 1;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+  
+
+    h4 {
+        margin-top: -2rem;
+        line-height: 1.5;
+    font-family: var(--font-josefin);
+        font-weight: 600;
+        font-size: 25px;
+
+        &:hover {
+            color: var(--white-color);
+        }
+
+        @media screen and (min-width: 2000px) {
+            margin-top: 3rem;
+        }
+    }
+
+    p {
+        color: var(--white-color);
+        margin-top: 1rem;
+        font-family: var(--font-base);
+        font-size: 18px;
+
+        
+    }
+    author{
+            color: var(--white-color);
+                margin-top: 1rem;
+                font-family: var(--font-josefin);
+                font-size: 16px;
+                font-weight: lighter;
+                text-align: left;
+    }
+ journal {
+    color: var(--white-color);
+        margin-top: 1rem;
+        font-family: var(--font-josefin);
+        font-size: 18px;
+        font-weight: 900;
+        text-align: left;
+ }
+  volume {
+    color: var(--white-color);
+        margin-top: 1rem;
+        font-family: var(--font-mulish);
+        font-size: 18px;
+        font-weight: lighter;
+        text-align: left;
+  }
+   date {
+    color: var(--white-color);
+        margin-top: 1rem;
+        font-family: var(--font-mulish);
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: left;
+   }
+
+          
+}
+
+.app__conferences-content {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-content: left;
+    flex: 1;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    h4 {
+            margin-top: -2rem;
+            line-height: 1.5;
+            font-family: var(--font-josefin);
+            font-weight: 600;
+            font-size: 25px;
+    
+            &:hover {
+                color: var(--white-color);
+            }
+    
+            @media screen and (min-width: 2000px) {
+                margin-top: 3rem;
+            }
+        }
+    
+        p {
+            color: var(--white-color);
+            margin-top: 1rem;
+            font-family: var(--font-base);
+            font-size: 18px;
+    
+    
+        }
+    
+    
+        organizer {
+            color: var(--white-color);
+            margin-top: 1rem;
+            font-family: var(--font-josefin);
+            font-size:16px;
+            font-weight: 900;
+            text-align: left;
+        }
+    
+            location {
+            color: var(--white-color);
+            margin-top: 1rem;
+            font-family: var(--font-mulish);
+            font-size: 18px;
+            font-weight: lighter;
+            text-align: left;
+        }
+    
+        date {
+            color: var(--white-color);
+            margin-top: 1rem;
+            font-family: var(--font-mulish);
+            font-size: 14px;
+            font-weight: lighter;
+            text-align: left;
+        }
+}

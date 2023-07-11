@@ -1,0 +1,44 @@
+#resume {
+    .app__wrapper {
+        padding: 0;
+
+        .copyright {
+            display: none;
+        }
+    }
+
+    h2 {
+        font-weight: 400;
+        color: var(--secondary-color);
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        font-family: var(--font-kelly);
+        font-size: 25pt;
+    }
+         .overlay {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             background-color: #1f1e1e17;
+             background-image: url("../../assets/radio_noise.png");
+             z-index: 0;
+             overflow: hidden;
+         }
+}
+
+.pdf-box{
+    @media screen and (min-width: 2000px) {
+            max-width: 900px;
+        }
+    
+        @media screen and (max-width: 850px) {
+            max-width: 750px;
+            align-self: center;
+        }
+    
+        @media screen and (max-width: 600px) {
+            width: 500px;
+        }
+}

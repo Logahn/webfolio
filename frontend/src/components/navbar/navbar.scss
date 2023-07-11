@@ -5,15 +5,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 
   padding: 1rem 2rem;
-  background-color: var(--main-color);
+  background-color: #16171ba9;
+  background-image: url("../../assets/radio_noise.png");
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   position: relative;
-  z-index: 2;
+  z-index: 10;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .app__navbar-logo {
@@ -42,17 +48,16 @@
 }
 
 .app__navbar-links {
-  flex: 1;
-  display: flex;
+  display: contents;
   justify-content: center;
   align-items: center;
-
   list-style: none;
+    z-index: 10;
 
   li {
     margin: 0 1rem;
     cursor: pointer;
-    width: 80px;
+    // width: 80px;
 
 
     flex-direction: column;
@@ -98,19 +103,18 @@
   height: 35px;
   border-radius: 50%;
   position: relative;
-
-  display: flex;
+  z-index: 10;
   justify-content: center;
   align-items: center;
-  background-color: var(--white-color);
   border-color: var(--main-color);
   cursor: pointer;
 
 
   svg {
-    width: 50%;
-    height: 50%;
-    color: var(--main-color);
+    width: 100%;
+    height: 100%;
+    color: var(--secondary-color);
+
   }
 
   div {
@@ -122,7 +126,7 @@
 
     padding: 1rem;
 
-    width: 80%;
+    width: 40%;
     height: 100vh;
     
     display: flex;
@@ -130,10 +134,11 @@
     align-items: flex-end;
     flex-direction: column;
     
-    background: url('../../assets/bgWhite.png');
-    background-color: var(--white-color);
+    background-color: #16171b;
+    border: 1px solid rgba(255, 255, 255, 0.18);
     background-size: cover;
     background-repeat: repeat;
+    background-image: url("../../assets/radio_noise.png");
 
     /* top box shadow */
     box-shadow: 0px 0px 20px rgba(168, 168, 168, 0.15);
@@ -141,9 +146,9 @@
     svg {
       width: 35px;
       height: 35px;
-      color: var(--main-color);
       margin: 0.5rem 1rem;
       cursor: pointer;
+      color: var(--secondary-color);
     }
 
     ul {
@@ -162,16 +167,16 @@
         margin: 1rem;
 
         a {
-          color: var(--main-color);
+          color: var(--secondary-color);
           text-decoration: none;
-          font-size: 1rem;
-          text-transform: uppercase;
+          font-size: 20px;
+          text-transform: none;
           font-weight: 500;
 
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            color: var(--gray-color);
+            color: var(--white-color);
           }
         }
       }

@@ -1,0 +1,157 @@
+#certifications {
+    .app__wrapper {
+        padding: 0;
+
+        .copyright {
+            display: none;
+        }
+    }
+
+    h2 {
+        font-weight: 400;
+        color: var(--secondary-color);
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        font-family: var(--font-kelly);
+        font-size: 25pt;
+    }
+         .overlay {
+             position: fixed;
+             top: 0;
+             left: 0;
+             width: 100%;
+             height: 100%;
+             background-color: #1f1e1e17;
+             background-image: url("../../assets/radio_noise.png");
+             z-index: 0;
+             overflow: hidden;
+         }
+}
+
+.app__certfications {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.app__certfications-certificate {
+    flex-direction: column;
+
+    .app__certfications-item {
+        width: 90%;
+        height: 200px;
+        flex-direction: row;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background-color: #ffffff;
+        background-image: url("../../assets/radio_noise.png");
+        color: #000;
+
+        // cursor: pointer;
+        transition: all 0.3s ease;
+
+        @media screen and (min-width: 2000px) {
+            width: 90%;
+            padding: 1.25rem;
+            border-radius: 0.75rem;
+        }
+
+        @media screen and (max-width: 300px) {
+            width: 90%;
+            margin-left: 1rem;
+        }
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.01);
+            box-shadow: 0 2px 10px 0 #fef4f5;
+        }
+    }
+          
+}
+
+.app__certfications-img {
+    width: 300px;
+    height: 150px;
+
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5rem;
+        object-fit: cover;
+    }
+
+    @media screen and (min-width: 2000px) {
+        height: 350px;
+    }
+}
+
+.overlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+}
+
+.app__certfications-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    border-radius: 0.5rem;
+    opacity: 0;
+    transition: all 0.3s ease;
+
+    div {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+
+        margin: 1rem;
+        transition: all 0.3s ease;
+
+        svg {
+            width: 50%;
+            height: 50%;
+            color: var(--white-color);
+        }
+    }
+}
+
+.app__certfications-content {
+    padding: 0.5rem;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 2rem;
+
+    h4 {
+        margin-top: 1rem;
+        line-height: 1.5;
+        font-family: var(--font-kelly);
+        font-size: 18pt;
+
+        @media screen and (min-width: 2000px) {
+            margin-top: 3rem;
+        }
+    }
+}

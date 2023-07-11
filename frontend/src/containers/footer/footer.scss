@@ -9,7 +9,8 @@
   h2 {
     font-weight: 400;
     color: var(--secondary-color);
-    margin-top: 2rem;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
     font-family: var(--font-kelly);
     font-size: 25pt;
   }
@@ -19,11 +20,24 @@
     flex: 1;
     width: 100%;
     flex-direction: column;
-  
+    z-index:1;
     @media screen and (max-width: 768px) {
       flex-direction: column;
     }
   }
+    .app__footers {
+display: flex;
+      width: 100%;
+      flex-direction: column;
+      z-index: 1;
+      justify-content: center;
+        align-items: center;
+    
+  
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
   
   .app__footer-cards {
     width: 60%;
@@ -63,7 +77,7 @@
         font-weight: 500;
       }
       &:hover {
-        box-shadow: 0 0 25px var(--mild_rose-color);
+        box-shadow: 0 0 10px var(--mild_rose-color);
       }
   
       @media screen and (max-width: 450px) {
@@ -76,13 +90,13 @@
     }
   }
   
-  .app__footer-cards .app__footer-card:last-child {
-    background-color:var(--mild_rose-color);
-  }
+  // .app__footer-cards .app__footer-card:last-child {
+  //   background-color:var(--mild_rose-color);
+  // }
   
-  .app__footer-cards .app__footer-card:last-child:hover {
-    box-shadow: 0 0 25px var(--mild_rose-color);
-  }
+  // .app__footer-cards .app__footer-card:last-child:hover {
+  //   box-shadow: 0 0 25px var(--mild_rose-color);
+  // }
   
   .app__footer-form {
     width: 60%;
@@ -95,7 +109,7 @@
       margin: 0.75rem 0;
       border-radius: 10px;
       cursor: pointer;
-      background-color: var(--plix-color);
+      // background-color: var(--plix-color);
   
       transition: all 0.3s ease-in-out;
   
@@ -117,7 +131,7 @@
       }
   
       &:hover {
-        box-shadow: 0 0 25px var(--primary-color);
+        box-shadow: 0 0 10px var(--mild_rose-color);
       }
     }
   
@@ -147,3 +161,52 @@
       margin: 1rem 0;
     }
   }
+a.app__social {
+  transition: transform 250ms;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.app__social:hover {
+  transform: translateY(-2px);
+}
+
+a.github:hover {
+  border-radius: 50%;
+  background-color: var(--black-color);
+  border-color: var(--black-color);
+}
+
+a.linkedin:hover {
+  border-radius: 50%;
+  background-color: #0072b1;
+  border-color: #0072b1;
+}
+
+a.twitter:hover {
+  border-radius: 50%;
+  background-color: #1D9BF0;
+  border-color: #1D9BF0;
+}
+
+a.instagram:hover {
+  border-radius: 50%;
+  background-color: #FD1D1D;
+  border-color: #FD1D1D;
+}
+
+a.facebook:hover {
+  border-radius: 50%;
+  background-color: #0165E1;
+  border-color: #0165E1;
+
+}
+
+.app__contacts{
+  display: flex;
+    flex-direction: row;
+      align-content: space-between;
+    width:100%;
+}

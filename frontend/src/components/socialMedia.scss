@@ -1,6 +1,10 @@
 a.app__social{
     transition: transform 250ms;
+    z-index:1;
+    display:flex;
+    flex-direction: row;
 }
+
 .app__social:hover {
     transform: translateY(-2px);
   }

@@ -2,9 +2,10 @@
     background-color: var(--primary-color);
     font-family: var(--font-base);
   }
-  
+
   .app__main {
     background-color: var(--main-color);
+    
   }
 
   .app__whitebg {
@@ -47,9 +48,10 @@
   .app__container {
     width: 100%;
     min-height: 100vh;
-  
+    background-color: var(--black-color);
     display: flex;
     flex-direction: row;
+    
   }
   
   .app__flex {
@@ -63,7 +65,7 @@
     width: 100%;
     flex-direction: column;
     padding: 4rem 2rem;
-  
+    
     @media screen and (max-width: 450px) {
       padding: 4rem 1rem 2rem;
     }

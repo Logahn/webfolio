@@ -1,12 +1,13 @@
 #about {
     .app__wrapper {
       padding: 0;
-  
       .copyright {
         display: none;
-      }
+      }            
     }
+           
   }
+   
 
 .app__about{
     flex: 1;
@@ -16,40 +17,42 @@
 
 }
 .app__about_card {
+    background:linear-gradient(to right, var(--starter-brown-color), var(--finisher-brown-color));
     width: 80%;
     min-height: 320px;
-    background-color: var(--plix-color);
     display: flex;
     flex-direction: column;
     padding: 1rem;
     border-radius: 15px;
     box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.3);
     margin: 0rem 0 0rem;
-    transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      z-index: 0;
+    
     h5 {
-        font-weight:400;
+        font-weight:500;
         font-size: 24pt;
         color: var(--white-color);
         text-align: left;
-        line-height: 2rem;
+        line-height: 3rem;
         font-family: var(--font-kelly);
       }
     h6 {
-        font-weight: 400;
-        font-size: 14pt;
+        font-weight: 600;
+        font-size: 20pt;
         color: var(--white-color);
-        text-align: left;
+        text-align: center;
         line-height: 2rem;
-        font-family: var(--font-saira);
+        font-family: var(--font-alumni);
       }
     h7 {
-        font-weight: 300;
-        font-size: 14pt;
+        font-weight: normal;
+        font-size: 20px;
         color: var(--white-color);
         margin-top: 2rem;
-        text-align: left;
+        text-align: justify;
         line-height: 2rem;
-        font-family: var(--font-kelly);
+        font-family: var(--font-josefin);
       }
   
     @media screen and (min-width: 2000px) {
@@ -85,10 +88,11 @@
   flex-direction: column;
   text-align: center;
   cursor: pointer;
+  z-index: 1;
 
   margin: 3rem 4rem;
 
-  transition: all 0.3s ease-in-out;
+
 
   h2 {
     font-weight:400;
@@ -110,6 +114,7 @@
     height: 150px;
     border-radius: 10%;
     background-color: #fef4f5;
+  
 
     img {
       width: 90%;

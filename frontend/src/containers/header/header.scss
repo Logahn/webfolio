@@ -1,19 +1,49 @@
 #home {
     position: relative;
     background-image: url("../../assets/developer.jpg");
-    background-size: cover;
+    background-size: auto;
     background-repeat: repeat;
+   
 
-    .overlay{
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #1f1e1e17;
+        background-image: url("../../assets/radio_noise.png");
+        z-index: 5;
+        overflow: hidden;
+        display: none;
+      }
+
+    .layer{
+      position: relative;
+      width: 100%;
+      height: 120%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform 0.3s ease-out;
+    }
+    .layer img{
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
+      width: 85%;
       height: 100%;
-      background-color: var(--main-color);
-
+      object-fit: cover;
+      overflow: hidden;
+      justify-content: center;
+        align-items: center;
+        opacity: 0.7;
     }
 
+
+           
     .app__wrapper {
       padding: 0;
 
@@ -35,122 +65,75 @@
     flex: 1;
     width: 100%;
     height: 100%;
-    flex-direction: row;
-  
+    flex-direction: row;  
     padding: 6rem 2rem 0rem;
-  
-    @media screen and (min-width: 2000px) {
-      padding-top: 10rem;
-    }
-  
-    @media screen and (max-width: 1200px) {
-      flex-direction: column;
-    }
-  
-    @media screen and (max-width: 450px) {
-      padding: 6rem 1rem 2rem;
-    }
   }
   
   .app__header-info {
-    flex: 0.65;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;
-  
-    margin: 0 2rem;
-  
-    @media screen and (max-width: 1200px) {
-      width: 100%;
-      margin-right: 3rem;
-    }
+    height: 80%;
+    position: absolute;
+    // z-index: 10;
   }
   
   .app__header-badge {
-    width: 100%;
-    height: 70%;
+    position: relative;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    // font-family: var(--font-secondary);
+    margin-top: 2rem;
   
-    .badge-cmp{
-      position: absolute;
+    .name{
+      position: relative;
+      display: flex;
       flex-direction: column;
-      margin-bottom: 0rem;
-      margin-top: 15rem;
-      margin-right: -45rem;
+      background-image: linear-gradient(to right, #bcbcbc, #797979);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
       //TODO: Edit ADELE CHINDA here
   
       p {
-        width: 100%;
-        // text-transform: uppercase;
+        width: auto;
         text-align: center;
-        font-size: 45pt;
+        font-size: 50pt;
         font-weight: normal;
         color: white;
+        text-size-adjust: 100%;
         font-family: var(--font-kelly);
 
       }
 
-      @media screen and (max-width: 1200px) {
-        width: 100%;
-        margin-right: 0rem;
-        margin-top: 10rem;
-        margin-bottom: 5rem;
+      @media screen and (max-width: 500px) {
+        p {
+          font-size: 30pt;
+  
+        }
       }
     }
-
-    .tag-cmp {
-      // font-family: var(--font-secondary);
-      padding: 0rem 2rem;
-      border-radius: 15px;
-      flex-direction: row;
-      width: auto;
-      margin-bottom: 1rem;
-      margin-right: -17rem;
-      
-
-      @media screen and (max-width: 1200px) {
-        width: 100%;
-        margin-right: 0rem;
-        margin-top: 15rem;
-        margin-bottom: 2rem;
-
-      }
-      }
-  
-    .tag-cmp {
-      position: absolute;
-      flex-direction: column;
-      margin-bottom: -22rem;
-      margin-top: 1rem;
-      margin-right: -45rem;
-      //TODO: Edit AI DEV here
-
-  
+ 
+    .title {
+        //TODO: Edit AI DEV here
       p {
         width: 100%;
         text-transform: uppercase;
         text-align: center;
-        font-size: 30pt;
-        font-weight: bold;
-        color: white;
-        font-family: var(--font-alumni);
+        font-size: 25pt;
+        font-weight: normal;
+        color: #A0CFEE;
+        text-size-adjust: 100%;
+        font-family: var(--font-kelly);
 
       }
 
-      @media screen and (max-width: 1200px) {
-        width: 100%;
-        margin-right: 0rem;
-        margin-top: 15rem;
-        margin-bottom: 5rem;
+      @media screen and (max-width: 500px)  {
+     p {
+          font-size: 15pt;
+        }
       }
-  
     }
   
     span {
@@ -160,125 +143,24 @@
         font-size: 5rem;
       }
     }
-  
-    @media screen and (max-width: 1200px) {
-      justify-content: flex-start;
-      align-items: flex-start;
-    }
   }
-  
-  .app__header-circles {
-    flex: 0.75;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    height: 100%;
-    margin-left: 1rem;
-  
-    div {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-  
-      background: var(--white-color);
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  
-      img {
-        width: 60%;
-        height: 60%;
-      }
-    }
-  
-    // circles with different height & width
-  
-    div:nth-child(1) {
-      width: 100px;
-      height: 100px;
-    }
-  
-    div:nth-child(2) {
-      margin: 1.75rem;
-      width: 150px;
-      height: 150px;
-    }
-  
-    div:nth-child(3) {
-      width: 70px;
-      height: 70px;
-    }
-  
-    @media screen and (min-width: 2000px) {
-      div:nth-child(2) {
-        width: 400px;
-        height: 400px;
-      }
-  
-      div:nth-child(3) {
-        width: 170px;
-        height: 170px;
-      }
-  
-      div:nth-child(1) {
-        width: 200px;
-        height: 200px;
-      }
-    }
-  
-    @media screen and (max-width: 1200px) {
-      width: 100%;
-      flex-direction: row;
-      flex-wrap: wrap;
-      margin-left: 0;
-  
-      div {
-        margin: 1rem;
-      }
-    }
-  }
-  
-  .app__header-img {
-    flex: 1;
-    height: 100%;
-  
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    position: relative;
-    
-  
-    img {
-      width: 50%;
-      height: 50%;
-      
-      object-fit: contain;
-      z-index: 1;
 
-      border-radius: 90%;
-      border-color: deepskyblue;
-    }
-  
+
+  .app__header-img {
+    
     .profile_circle {
       
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 0;
       width: 250px;
       height: 250px;
       border-radius: 100%;
-      margin: 18rem 0;
-      margin-left: -1rem;
+      box-shadow: 0 2px 10px 0 black;
+      // mix-blend-mode: hard-light;
     }
-  
-    @media screen and (max-width: 1200px) {
-      margin: 0rem 0;
+    @media screen and (max-width: 500px) {
       width: auto;
-      height: 100%;
-      margin-right: 9rem;
-      margin-top: 10rem 2;
-      margin-bottom: 10rem;
-      position: absolute;
+      height: auto;
     }
   }
+
+  
+  

@@ -9,8 +9,8 @@
   h2 {
     font-weight: 400;
     color: var(--secondary-color);
-    margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin-top: 5rem;
+    margin-bottom: -5rem;
     font-family: var(--font-kelly);
     font-size: 25pt;
   }
@@ -32,6 +32,7 @@
       width: 100%;
       flex-direction: column;
     }
+        z-index: 1;
   }
   
   .app__skills-list {
@@ -100,7 +101,7 @@
   }
   
   .app__skills-exp {
-    flex: 2.5;
+    flex: .5;
     display:none;
     justify-content: flex-start;
     align-items: flex-start;

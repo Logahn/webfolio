@@ -1,4 +1,4 @@
-#experience {
+#experience { 
     .app__wrapper {
       padding: 0;
   
@@ -20,18 +20,21 @@
       flex: 1;
       width: 100%;
       flex-direction: column;
+      z-index: 1;
     }
     
     .app__experience-item {
-      width: 60%;
+      width: 75%;
       min-height: 320px;
-      background-color: var(--main-color);
-      display: flex;
+background:linear-gradient(to right, var(--starter-brown-color), var(--finisher-brown-color));    
+display: flex;
       flex-direction: row;
       padding: 2rem;
-      border-radius: 15px;
-      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-      margin: 7rem 0 2rem;
+      border-radius: 25px;
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+      margin: 5rem 0 2rem;
+      border-left: 2rem;
+      border-right: 2rem;
       transition: all 0.3s ease-in-out;
     
       img {
@@ -51,8 +54,8 @@
         }
       }
     
-      @media screen and (max-width: 850px) {
-        width: 100%;
+      @media screen and (max-width: 500px) {
+        width: 85%;
       }
     
       @media screen and (max-width: 600px) {
@@ -86,7 +89,7 @@
     
       h4 {
         font-weight: 400;
-        color: var(--black-color);
+        color: var(--white-color);
         margin-top: 2rem;
         font-family: var(--font-kelly);
         font-size: 15pt;
@@ -112,10 +115,11 @@
         margin-bottom: 2px;
       }
       .app__projects-tag {
-        position: absolute;
-        margin-top: 15rem;
+        position: relative;
+        margin-top: 1rem;
         display: flex;
         flex-direction: row;
+        
       }
       .app__projects-tag0 {
         display: flex;
@@ -185,11 +189,11 @@
         svg {
           width: 20px;
           height: 20px;
-          color: var(--plix-color);
+          color: var(--starter-brown-color);
         }
     
         &:hover {
-          background-color: var(--secondary-color);
+          background-color: var(--starter-brown-color);
     
           svg {
             color: var(--white-color);

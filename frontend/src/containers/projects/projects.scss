@@ -4,12 +4,12 @@
 
     .copyright {
       display: none;
-    }
+    } 
   }
   h2 {
     font-weight: 400;
     color: var(--secondary-color);
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: -2rem;
     font-family: var(--font-kelly);
     font-size: 25pt;
@@ -20,6 +20,7 @@
     flex: 1;
     width: 100%;
     flex-direction: column;
+          z-index: 1;
   }
   
   .app__projects-filter {
@@ -35,7 +36,7 @@
       padding: 0.5rem 1rem;
       border-radius: 0.5rem;
       background-color: #fff;
-      color: var(--plix-color);
+      color: var(--black-color);
       font-weight: 800;
   
       cursor: pointer;
@@ -72,7 +73,8 @@
       margin: 2rem;
       padding: 1rem;
       border-radius: 0.5rem;
-      background-color: #fff;
+      background-color: #ffffff;
+      background-image: url("../../assets/radio_noise.png");
       color: #000;
   
       cursor: pointer;
@@ -172,3 +174,26 @@
       top: -25px;
     }
   }
+    .portfolio__direct {
+      height: 3rem;
+        padding: 0.5rem 1rem;
+          border-radius: 0.5rem;
+          font-weight: 800;
+          font-family: var(--font-kelly);
+          background-color: var(--secondary-color);
+          color: #313030;
+          
+          cursor: pointer;
+          transition: all 0.3s ease;
+          margin: 0.5rem;
+          
+          &:hover {
+            background-color: #fff;
+            color: var(--black-color);
+          }
+        
+          @media screen and (min-width: 2000px) {
+            padding: 1rem 2rem;
+            border-radius: 0.85rem;
+          }
+    }

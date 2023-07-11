@@ -1,95 +1,87 @@
-import email from '../assets/email.png';
-import gmail from '../assets/gmail.png';
-import mobile from '../assets/mobile.png';
-import api from '../assets/api.png';
-import cpp from '../assets/cpp.png';
-import css from '../assets/css.png';
-import figma from '../assets/figma.png';
-import flutter from '../assets/flutter.png';
-import git from '../assets/git.png';
-import graphql from '../assets/graphql.png';
-import html from '../assets/html.png';
-import javascript from '../assets/javascript.png';
-import mu5 from '../assets/mu5.png';
-import node from '../assets/node.png';
-import profile from '../assets/profile.png';
-import profile1 from '../assets/profile1.png';
-import python from '../assets/python.png';
-import react from '../assets/react.png';
-import redux from '../assets/redux.png';
-import sass from '../assets/sass.png';
-import typescript from '../assets/typescript.png';
-import vue from '../assets/vue.png';
-import circle from '../assets/circle.png';
-import circles from '../assets/circle.svg';
-import jpMorgan from '../assets/jpMorgan.png';
-import ac_logo from '../assets/ac_logo.png';
-import adele_logo from '../assets/adele_logo.svg';
-import icon from '../assets/icon.jpeg';
-import robo_hand from '../assets/robo_hand.png'
-import developer from '../assets/developer.jpg'
-import trialBg from '../assets/trialBg.jpg'
+import icon from "../assets/icon.jpeg";
+import gmail from "../assets/gmail.png";
+import mobile from "../assets/mobile.png";
+import adele_logo from "../assets/adele_logo.svg";
+import testimonial1 from "../assets/testimonial1.jpg";
+import testimonial2 from "../assets/testimonial2.jpg";
+import testimonial3 from "../assets/testimonial3.jpg";
+import testimonial4 from "../assets/testimonial4.jpg";
+import testimonial5 from "../assets/testimonial5.jpg";
+import tensorflow from "../assets/tensorflow.png";
+import floaters1 from "../assets/floaters1.png";
+import floaters2 from "../assets/floaters2.png";
+import floaters3 from "../assets/floaters3.png";
+import resumePDF from "../assets/Resume.pdf";
+import resume from "../assets/Adele Chinda - Undergraduate Resume.pdf";
+import conferenceIcon from "../assets/conferences.png";
+import publicationIcon from "../assets/publication.png";
 
-
-import adidas from '../assets/adidas.png';
-import amazon from '../assets/amazon.png';
-import asus from '../assets/asus.png';
-import bolt from '../assets/bolt.png';
-import nb from '../assets/nb.png';
-import skype from '../assets/skype.png';
-import spotify from '../assets/spotify.png';
-
-import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
-import about03 from '../assets/about03.png';
-import about04 from '../assets/about04.png';
-
-
+//* Blog post assets start here
+import manAI from "../assets/blog/manAI.jpeg";
+import transferLearning from "../assets/blog/transferLearning.png";
+import tLearning from "../assets/blog/tLearning.jpg";
+import featureExtraction from "../assets/blog/featureExtraction.png";
+import fineTuning from "../assets/blog/fineTuning.png";
+import KNN3 from "../assets/blog/KNN3.png";
+import knn_fig1 from "../assets/blog/knn_fig1.png";
+import knn_fig2 from "../assets/blog/knn_fig2.png";
+import knn_fig3 from "../assets/blog/knn_fig3.png";
+import knn_fig4 from "../assets/blog/knn_fig4.png";
+import knn_fig5 from "../assets/blog/knn_fig5.png";
+import knn_fig6 from "../assets/blog/knn_fig6.png";
+import svm_header from "../assets/blog/svm_header.png";
+import svm_fig1 from "../assets/blog/svm_fig1.png";
+import svm_fig2 from "../assets/blog/svm_fig2.png";
+import svm_fig3 from "../assets/blog/svm_fig3.png";
+import kernelTrick_header from "../assets/blog/kernelTrick_header.png";
+import kernelTrick_fig1 from "../assets/blog/kernelTrick_fig1.png";
+import cnnRnn_header from "../assets/blog/cnnRnn_header.png";
+import studyJourney_header from "../assets/blog/bookShelf.jpg";
+import book1 from "../assets/blog/book1.jpg";
+import book2 from "../assets/blog/book2.png";
+import book3 from "../assets/blog/book3.jpg";
+import book4 from "../assets/blog/book4.jpg";
 
 export default {
-    trialBg,
-    developer,
-    robo_hand,
-    icon,
-    adele_logo,
-    ac_logo,
-    gmail,
-    email,
-    mobile,
-    api,
-    cpp,
-    css,
-    circle,
-    circles,
-    figma,
-    flutter,
-    git,
-    graphql,
-    html,
-    javascript,
-    mu5,
-    node,
-    profile,
-    profile1,
-    python,
-    react,
-    redux,
-    sass,
-    typescript,
-    vue,
-    about01,
-    about02,
-    about03,
-    about04,
-    // profile,
-    // circle,
-    // logo,
-    adidas,
-    amazon,
-    asus,
-    bolt,
-    nb,
-    skype,
-    spotify,
-    jpMorgan
-  };
+  book1,
+  book2,
+  book3,
+  book4,
+  studyJourney_header,
+  cnnRnn_header,
+  kernelTrick_header,
+  kernelTrick_fig1,
+  svm_header,
+  svm_fig1,
+  svm_fig2,
+  svm_fig3,
+  KNN3,
+  knn_fig1,
+  knn_fig2,
+  knn_fig3,
+  knn_fig4,
+  knn_fig5,
+  knn_fig6,
+  testimonial1,
+  testimonial2,
+  testimonial3,
+  testimonial4,
+  testimonial5,
+  icon,
+  gmail,
+  mobile,
+  adele_logo,
+  tensorflow,
+  floaters1,
+  floaters2,
+  floaters3,
+  resumePDF,
+  resume,
+  conferenceIcon,
+  publicationIcon,
+  manAI,
+  transferLearning,
+  tLearning,
+  featureExtraction,
+  fineTuning,
+};

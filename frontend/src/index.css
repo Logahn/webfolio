@@ -1,16 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mulish:wght@200&display=swap');
+
+
 :root {
   --font-base: "DM Sans", sans-serif;
   --font-kelly:'Kelly Slab', cursive;
   --font-alumni: 'Alumni Sans Pinstripe', sans-serif;
   --font-saira: 'Saira Condensed', sans-serif;
+  --font-garamond: 'Garamond', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-josefin: 'Josefin Sans', sans-serif;
+  --font-mulish: 'Mulish', sans-serif;
 
-  --main-color: rgba(33, 125, 187, .8);
+  --black-color: #222326;
+  --main-color: linear-gradient(to right, #9a6c5e, #5f2323);
   --primary-color: #5282bc;
   --lead-color: rgba(33, 125, 187, 0.8);
   --secondary-color: #ffa903;
-  --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
   --brown-color: #46364a;
@@ -19,13 +26,16 @@
   --plix-color: #00407A;
   --new_gray-color: #6b7a99;
   --new_gray1-color: #b2b9d1;
-  --black-color: #0a192f;
   --mild_rose-color:#fef4f5;
  
   --gradient1-color: rgba(72, 151, 215, 0.8);
   --gradient2-color: rgba(104, 177, 244, 0.8);
   --gradient3-color: rgba(134, 205, 255, 0.8);
-  --gradient4-color: rgba(164, 233, 255, 0.8);
+  --gradient4-color: rgba(164, 233, 255, 0.8); 
+
+
+  --starter-brown-color: #c47e69;
+  --finisher-brown-color: #6d2f2f;
 
 
 
