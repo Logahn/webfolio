@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webfolio/static/css/main.28e1b7d5.css",
-    "main.js": "/webfolio/static/js/main.6faab442.js",
+    "main.js": "/webfolio/static/js/main.0f09a33f.js",
     "static/media/bookShelf.jpg": "/webfolio/static/media/bookShelf.3ea55a00bf584e0be08c.jpg",
     "static/media/testimonial5.jpg": "/webfolio/static/media/testimonial5.2688819aafdd38fd9491.jpg",
     "static/media/book2.png": "/webfolio/static/media/book2.1dfbd6c9cecde1c509bc.png",
@@ -47,10 +47,10 @@
     "static/media/adele_logo.svg": "/webfolio/static/media/adele_logo.8e1d7c500f7316edcbcc8c6db9db573b.svg",
     "index.html": "/webfolio/index.html",
     "main.28e1b7d5.css.map": "/webfolio/static/css/main.28e1b7d5.css.map",
-    "main.6faab442.js.map": "/webfolio/static/js/main.6faab442.js.map"
+    "main.0f09a33f.js.map": "/webfolio/static/js/main.0f09a33f.js.map"
   },
   "entrypoints": [
     "static/css/main.28e1b7d5.css",
-    "static/js/main.6faab442.js"
+    "static/js/main.0f09a33f.js"
   ]
 }
