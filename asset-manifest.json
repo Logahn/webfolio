@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webfolio/static/css/main.28e1b7d5.css",
-    "main.js": "/webfolio/static/js/main.0f09a33f.js",
+    "main.js": "/webfolio/static/js/main.432958da.js",
     "static/media/bookShelf.jpg": "/webfolio/static/media/bookShelf.3ea55a00bf584e0be08c.jpg",
     "static/media/testimonial5.jpg": "/webfolio/static/media/testimonial5.2688819aafdd38fd9491.jpg",
     "static/media/book2.png": "/webfolio/static/media/book2.1dfbd6c9cecde1c509bc.png",
@@ -17,9 +17,9 @@
     "static/media/kernelTrick_fig1.png": "/webfolio/static/media/kernelTrick_fig1.ead3ec7cd871c1046a0a.png",
     "static/media/kernelTrick_header.png": "/webfolio/static/media/kernelTrick_header.40e5f52a61d9ad7deb62.png",
     "static/media/knn_fig4.png": "/webfolio/static/media/knn_fig4.22b5c5bc84fc99237ed0.png",
+    "static/media/Adele Chinda - Undergraduate Resume.pdf": "/webfolio/static/media/Adele Chinda - Undergraduate Resume.358ce2c2aabf4776fd13.pdf",
     "static/media/icon.jpeg": "/webfolio/static/media/icon.ee5f6f8e5d8e99558f12.jpeg",
     "static/media/knn_fig6.png": "/webfolio/static/media/knn_fig6.ed16501f51dee08b8b91.png",
-    "static/media/Adele Chinda - Undergraduate Resume.pdf": "/webfolio/static/media/Adele Chinda - Undergraduate Resume.7f0761e374a93f022b89.pdf",
     "static/media/floaters3.png": "/webfolio/static/media/floaters3.06a42d0b7ac323352144.png",
     "static/media/Resume.pdf": "/webfolio/static/media/Resume.820feb72fe1856ec8eaf.pdf",
     "static/media/knn_fig2.png": "/webfolio/static/media/knn_fig2.c3f94b204c1cc3dd6136.png",
@@ -47,10 +47,10 @@
     "static/media/adele_logo.svg": "/webfolio/static/media/adele_logo.8e1d7c500f7316edcbcc8c6db9db573b.svg",
     "index.html": "/webfolio/index.html",
     "main.28e1b7d5.css.map": "/webfolio/static/css/main.28e1b7d5.css.map",
-    "main.0f09a33f.js.map": "/webfolio/static/js/main.0f09a33f.js.map"
+    "main.432958da.js.map": "/webfolio/static/js/main.432958da.js.map"
   },
   "entrypoints": [
     "static/css/main.28e1b7d5.css",
-    "static/js/main.0f09a33f.js"
+    "static/js/main.432958da.js"
   ]
 }
