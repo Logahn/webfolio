@@ -27,27 +27,21 @@ function App() {
           <Navbar />
         </div>
         <Routes>
-          <Route exact path="/webfolio" component={<HomePage />} />
-          <Route path="/webfolio/portfolio" element={<Portfolio />} />
-          <Route path="/webfolio/publications" element={<Publications />} />
-          <Route path="/webfolio/certifications" element={<Certifications />} />
-          <Route path="/webfolio/resume" element={<Resume />} />
-          <Route path="/webfolio/blog" element={<Blog />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/publications" element={<Publications />} />
+          <Route path="/certifications" element={<Certifications />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/transfer-learning" element={<TransferLearning />} />
+          <Route path="/k-nearest-neighbors" element={<KNearestNeighbors />} />
           <Route
-            path="/webfolio/transfer-learning"
-            element={<TransferLearning />}
-          />
-          <Route
-            path="/webfolio/k-nearest-neighbors"
-            element={<KNearestNeighbors />}
-          />
-          <Route
-            path="/webfolio/support-vector-machines"
+            path="/support-vector-machines"
             element={<SupportVectorMachines />}
           />
-          <Route path="/webfolio/kernel-trick" element={<KernelTrick />} />
-          <Route path="/webfolio/cnn-vs-rnn" element={<CNNvsRNN />} />
-          <Route path="/webfolio/learning-journey" element={<StudyJourney />} />
+          <Route path="/kernel-trick" element={<KernelTrick />} />
+          <Route path="/cnn-vs-rnn" element={<CNNvsRNN />} />
+          <Route path="/learning-journey" element={<StudyJourney />} />
         </Routes>
       </div>
     </>

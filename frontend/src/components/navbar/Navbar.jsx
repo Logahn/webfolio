@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 import { images } from "../../constants";
 import "./navbar.scss";
@@ -11,7 +12,6 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <a href="https://logahn.github.io/webfolio/">
-          {" "}
           <img src={images.adele_logo} alt="logo" />
         </a>
       </div>
@@ -38,22 +38,22 @@ const Navbar = () => {
 
       <ul className="app__navbar-links">
         <li>
-          <a href="/webfolio">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/webfolio/portfolio">Portfolio</a>
+          <Link to="/portfolio">Portfolio</Link>
         </li>
         <li>
-          <a href="/webfolio/publications">Publications</a>
+          <Link to="/publications">Publications</Link>
         </li>
         <li>
-          <a href="/webfolio/certifications">Certifications</a>
+          <Link to="/certifications">Certifications</Link>
         </li>
         <li>
-          <a href="/webfolio/resume">Resume</a>
+          <Link to="/resume">Resume</Link>
         </li>
         <li>
-          <a href="/webfolio/blog">Blog</a>
+          <Link to="/blog">Blog</Link>
         </li>
       </ul>
 
@@ -98,22 +98,22 @@ const Navbar = () => {
             </ul> */}
             <ul className="app__navbar-links">
               <li>
-                <a href="/webfolio">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/webfolio/portfolio">Portfolio</a>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
-                <a href="/webfolio/publications">Publications</a>
+                <Link to="/publications">Publications</Link>
               </li>
               <li>
-                <a href="/webfolio/certifications">Certifications</a>
+                <Link to="/certifications">Certifications</Link>
               </li>
               <li>
-                <a href="/webfolio/resume">Resume</a>
+                <Link to="/resume">Resume</Link>
               </li>
               <li>
-                <a href="/webfolio/blog">Blog</a>
+                <Link to="/blog">Blog</Link>
               </li>
             </ul>
           </div>
