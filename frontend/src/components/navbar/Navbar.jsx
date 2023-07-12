@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <a href="https://logahn.github.io/portfolio-website/">
+        <a href="https://logahn.github.io/webfolio/">
           {" "}
           <img src={images.adele_logo} alt="logo" />
         </a>
@@ -38,22 +38,22 @@ const Navbar = () => {
 
       <ul className="app__navbar-links">
         <li>
-          <a href="/portfolio-website/">Home</a>
+          <a href="/webfolio">Home</a>
         </li>
         <li>
-          <a href="/portfolio-website/portfolio">Portfolio</a>
+          <a href="/webfolio/portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="/portfolio-website/publications">Publications</a>
+          <a href="/webfolio/publications">Publications</a>
         </li>
         <li>
-          <a href="/portfolio-website/certifications">Certifications</a>
+          <a href="/webfolio/certifications">Certifications</a>
         </li>
         <li>
-          <a href="/portfolio-website/resume">Resume</a>
+          <a href="/webfolio/resume">Resume</a>
         </li>
         <li>
-          <a href="/portfolio-website/blog">Blog</a>
+          <a href="/webfolio/blog">Blog</a>
         </li>
       </ul>
 
@@ -98,22 +98,22 @@ const Navbar = () => {
             </ul> */}
             <ul className="app__navbar-links">
               <li>
-                <a href="/portfolio-website">Home</a>
+                <a href="/webfolio">Home</a>
               </li>
               <li>
-                <a href="/portfolio-website/portfolio">Portfolio</a>
+                <a href="/webfolio/portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="/portfolio-website/publications">Publications</a>
+                <a href="/webfolio/publications">Publications</a>
               </li>
               <li>
-                <a href="/portfolio-website/certifications">Certifications</a>
+                <a href="/webfolio/certifications">Certifications</a>
               </li>
               <li>
-                <a href="/portfolio-website/resume">Resume</a>
+                <a href="/webfolio/resume">Resume</a>
               </li>
               <li>
-                <a href="/portfolio-website/blog">Blog</a>
+                <a href="/webfolio/blog">Blog</a>
               </li>
             </ul>
           </div>
