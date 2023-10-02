@@ -12,7 +12,7 @@ import floaters1 from "../assets/floaters1.png";
 import floaters2 from "../assets/floaters2.png";
 import floaters3 from "../assets/floaters3.png";
 import resumePDF from "../assets/Resume.pdf";
-import resume from "../assets/Adele Chinda - Undergraduate Resume.pdf";
+import resume from "../assets/Adele Chinda - Curriculum Vitae.pdf";
 import conferenceIcon from "../assets/conferences.png";
 import publicationIcon from "../assets/publication.png";
 
